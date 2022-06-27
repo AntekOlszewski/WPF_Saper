@@ -1,0 +1,15 @@
+C:\Users\antek\source\repos\Saper\bin\Debug\Saper.exe.config
+C:\Users\antek\source\repos\Saper\bin\Debug\Saper.exe
+C:\Users\antek\source\repos\Saper\bin\Debug\Saper.pdb
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.csprojAssemblyReference.cache
+C:\Users\antek\source\repos\Saper\obj\Debug\MainWindow.g.cs
+C:\Users\antek\source\repos\Saper\obj\Debug\App.g.cs
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper_MarkupCompile.cache
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper_MarkupCompile.lref
+C:\Users\antek\source\repos\Saper\obj\Debug\MainWindow.baml
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.g.resources
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.Properties.Resources.resources
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.csproj.GenerateResource.cache
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.exe
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.pdb
+C:\Users\antek\source\repos\Saper\obj\Debug\Saper.csproj.CoreCompileInputs.cache

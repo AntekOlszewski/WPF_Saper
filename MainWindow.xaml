@@ -1,0 +1,41 @@
+﻿<Window x:Class="Saper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Saper"
+        mc:Ignorable="d"
+        Title="Saper" SizeToContent="WidthAndHeight" ContentRendered="Window_ContentRendered" ResizeMode="NoResize" WindowStyle="None" MouseLeftButtonDown="Window_Move">
+    <DockPanel Background="Gray">
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontFamily" Value="Consolas"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="18" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Style>
+            </Grid.Resources>
+
+            <WrapPanel Margin="10,0,0,0" Grid.Column="0">
+                <TextBlock Name="timer">00:00</TextBlock>
+            </WrapPanel>
+            <Button Name="btnReset" Click="Reset" Grid.Column="1" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" BorderThickness="0" Padding="10,0">X</Button>
+            <WrapPanel Grid.Column="2">
+                <TextBlock Name="minesLeft">40</TextBlock>
+            </WrapPanel>
+            <Button Grid.Column="3" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" BorderThickness="0" Name="btnClose" Click="BtnClose_Click" Padding="10,0">X</Button>
+        </Grid>
+        <Border BorderBrush="Black" BorderThickness="5">
+            <Canvas Name="GameArea" ClipToBounds="True" Width="320" Height="320" MouseLeftButtonDown="Click" MouseRightButtonDown="Flag">
+
+            </Canvas>
+        </Border>
+    </DockPanel>
+</Window>
